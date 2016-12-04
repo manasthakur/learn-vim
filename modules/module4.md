@@ -1,4 +1,19 @@
-##Learn Vim - Module 4: Coderz
+## Learn Vim - Module 4: Coderz
 
-_Under construction. Will be live tentatively on December 25th, 2016. Follow me on [twitter](https://twitter.com/manasthakur17) for updates.._
+_Under construction. Will be live tentatively on December 18th, 2016._
+
+Topics to be covered:
+
+* Indentation
+* Matching
+* Folding
+* Navigating code using ctags and cscope
+* Simple mappings
+* The _leader_ key
+* Abbreviations
+* Make
+* Quickfix window
+* Search across files using grep/vimgrep
+* Completion
+* Vimdiff
 

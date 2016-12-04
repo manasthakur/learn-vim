@@ -1,4 +1,4 @@
-##Learn Vim - Module 1: (Not just an) Intro
+## Learn Vim - Module 1: (Not just an) Intro
 
 [Vim](http://www.vim.org/) is a command-line text editor, created by [Bram Moolenar](http://www.moolenaar.net/).
 It stands for _Vi-IMproved_; _Vi_ was an older ubiquitous editor, which was enhanced to create Vim.
@@ -36,7 +36,7 @@ Note that the above command lands us back into normal mode; thus, to start typin
 
 To _quit_ vim, type either `q` in command mode, or `ZZ` in normal mode:
 ```
-<Esc>:q<CR>    or    <Esc>ZZ    // Quit vim
+<Esc>:q<CR>  or  <Esc>ZZ    // Quit vim
 ```
 We can _save-and-quit_ by combining the keystrokes for write (w) and quit (q) in command mode:
 ```
@@ -76,11 +76,11 @@ Some _useful options_ to set in the vimrc file are as follows:
 * `set expandtab` -- replace tab character (`\t` literal) with 4 spaces.
 * `set nocompatible` -- don't worry about backwards compatibility to _Vi_; this enables some additional _Vim_ features.
 
-#### Endnote
+#### Endnote:
 In this module, we learned about some basic operations that allow us to _type_ neatly in vim.
 This is already enough to get you started with using Vim instead of other simple editors (such as TextEdit in macOS).
 In the next module, we will learn about working with multiple files in Vim, _simultaneously_!
 
-Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
-Follow me on [twitter](https://twitter.com/manasthakur17) for updates.
+[Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
+[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 

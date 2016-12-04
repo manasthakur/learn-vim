@@ -6,7 +6,6 @@ Welcome to the most unique tutorial on Vim -- the best text-editor on the planet
 - Very comprehensive
 - Useful for novices and professionals alike
 - No screenshots! You are supposed to follow the tutorial with Vim open alongside
-- Feel of someone sitting by your side and teaching you
 
 ### Modules
 We will learn Vim over six modules:
@@ -18,16 +17,18 @@ We will learn Vim over six modules:
 5. [Plug n Play](modules/module5.md)
 6. [That's not all, Folks!](modules/module6.md)
 
-The first three modules (available now) are concerned with vanilla (read 'pure') Vim.
-The fourth module (December 18th) will introduce some external tools and tips for coding in Vim.
-The fifth module (December 25th) will touch upon some popular useful plugins.
-The sixth module (January 1st) will give an insight into some advanced concepts, and tell you how to learn more.
+The first three modules wil be concerned with vanilla (read 'pure') Vim.
+The fourth module will introduce some external tools and tips for coding in Vim.
+The fifth module will touch upon some popular useful plugins.
+The sixth module will give an insight into some advanced concepts, and tell you how to learn more.
 
-By the end (that is, on New Year's Day), you will be able to proudly call yourself a _Vim expert_.
+The first two modules are already live!
+I plan to release each subsequent module on a weekend.
+The link for each unreleased module lists the topics planned to be covered in that module.
+The idea is that by the end (that is, on New Year's Day), you should be able to call yourself a _Vim expert_.
 So let's get started with [(Not just an) Intro](modules/module1.md).
 
+[Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
+You can [follow me](https://twitter.com/manasthakur17) on twitter for updates.
 Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
-You can follow me on [twitter](https://twitter.com/manasthakur17) for updates.
-
-_p.s._ I plan to create an accompanying video-series with screencasts in near future.
 
