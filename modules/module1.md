@@ -7,3 +7,9 @@ To open Vim, just type `vim` at the command-prompt.
 Note that on most modern systems, `vi` is symlinked to `vim`.
 However, just in case the symlink does not exist, I recommend typing the whole word `vim`.
 
+To open a file in the beginning, type `vim file-name` at the command-prompt.
+To open a file inside vim, type
+```
+:e file-name	// 'e' stands for 'edit'
+```
+
