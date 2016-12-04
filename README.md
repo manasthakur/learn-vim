@@ -2,12 +2,12 @@
 
 Welcome to the most unique tutorial on Vim -- the best text-editor on the planet!
 
-### Features
+### Features:
 - Very comprehensive
 - Useful for novices and professionals alike
-- No screenshots! You are supposed to follow the tutorial with Vim open alongside
+- No screenshots! Supposed to be followed with Vim open alongside
 
-### Modules
+### Modules:
 We will learn Vim over six modules:
 
 1. [(Not just an) Intro](modules/module1.md)

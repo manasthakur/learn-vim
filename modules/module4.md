@@ -17,3 +17,5 @@ Topics to be covered:
 * Completion
 * Vimdiff
 
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module3.md)  |  [Next module](module5.md)
+

@@ -86,6 +86,8 @@ In this module, we learned about some powerful ways to work with multiple files 
 Believe me, many vim users do not understand the difference between buffers, tabs, and windows, and hence either get confused or don't use BTW at all.
 In the next module, we will learn about some amazing features unique to Vim (read _Normal mode_) that make it the most popular text-editor in the world.
 
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
+
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
 [Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 

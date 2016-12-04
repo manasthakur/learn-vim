@@ -14,3 +14,5 @@ Topics to be covered:
 * Change case
 * Faster vim with relativenumber and the dot command
 
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module2.md)  |  [Next module](module4.md)
+

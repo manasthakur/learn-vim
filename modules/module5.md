@@ -23,3 +23,5 @@ Topics to be covered:
 	- junegunn
 * Customizing plugins
 
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module4.md)  |  [Next module](module6.md)
+
