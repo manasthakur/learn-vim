@@ -8,7 +8,7 @@ Note that on most modern systems, `vi` is symlinked to `vim`.
 However, just in case the symlink does not exist, I recommend typing the whole word `vim`.
 
 To open a file in the beginning, type `vim file-name` at the command-prompt.
-To open a file inside vim, type
+To open a file inside vim, type:
 ```
 :e file-name	// 'e' stands for 'edit'
 ```
@@ -24,4 +24,22 @@ The major ones (for now) are:
 The following diagram shows how to switch from one mode to the other:
 
 <img src="../images/vim-modes.jpg" width="240px">
+
+The _default mode_ when we open vim is the _Normal_ mode.
+
+To start typing like other non-modal editors (e.g., gedit), just press `i` in normal mode, which will land you into the _Insert_ mode.
+Once typing is over, we can _save_ the text by typing `w` in _Command_ mode and pressing `Enter` (CR or carriage-return):
+```
+<Esc>:w<CR>    // <Esc>: the Escape key; <CR>: the Enter key
+```
+Note that the above command lands us back into normal mode; thus, to start typing text again, we need to press `i` again.
+
+To _quit_ vim, type either `q` in command mode, or `ZZ` in normal mode:
+```
+<Esc>:q<CR>    or    <Esc>ZZ    // Quit vim
+```
+We can _save-and-quit_ by combining the keystrokes for write (w) and quit (q) in command mode:
+```
+:wq    // Save-and-quit. From now on, we will omit writing the prefix <Esc> and the suffix <CR>.
+```
 
