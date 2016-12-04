@@ -9,12 +9,12 @@ Welcome to the most unique tutorial on Vim -- the best text-editor on the planet
 ### Modules
 We will learn Vim over six modules:
 
-1. [(Not just an) Intro](module-1)
-2. [BTW (Buffers, Tabs, Windows)](module-2)
-3. [Being Normal](module-3)
-4. [Coderz](module-4)
-5. [Plug n Play](module-5)
-6. [That's not all, Folks!](module-6)
+1. [(Not just an) Intro](./module1)
+2. [BTW (Buffers, Tabs, Windows)](./module2)
+3. [Being Normal](./module3)
+4. [Coderz](./module4)
+5. [Plug n Play](./module5)
+6. [That's not all, Folks!](./module6)
 
 The first three modules will be concerned with vanilla (read 'pure') Vim.
 The fourth module will introduce some external tools and tips for coding in Vim.
