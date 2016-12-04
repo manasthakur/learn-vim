@@ -52,7 +52,7 @@ In such a case, either write `:q!` to quit without saving the changes, or first 
 ### Configuring Vim
 Vim has many configuration options, which can be
 * enabled for the current instance of vim by setting them in command mode (e.g., `set option`)
-* enabled across all the instance of vim by writing them in the _vimrc file_.
+* enabled across all the instances of vim by writing them in the _vimrc file_.
 
 The default location of the vimrc file is:
 ```
