@@ -14,5 +14,5 @@ Topics to be covered:
 * vim8 and neovim
 * Resources for the enthusiast.
 
-[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module5.md)
 
