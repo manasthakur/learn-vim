@@ -24,7 +24,7 @@ The fifth module (December 25th) will touch upon some popular useful plugins.
 The sixth module (January 1st) will give an insight into some advanced concepts, and tell you how to learn more.
 
 By the end (that is, on New Year's Day), you will be able to proudly call yourself a _Vim expert_.
-So let's get started with [(Not just an) Intro](modules/module1).
+So let's get started with [(Not just an) Intro](modules/module1.md).
 
 Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
 You can follow me on [twitter](https://twitter.com/manasthakur17) for updates.
