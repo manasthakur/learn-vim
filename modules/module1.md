@@ -1,5 +1,7 @@
 ## Learn Vim - Module 1: (Not just an) Intro
 
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Next module](module2.md)
+
 [Vim](http://www.vim.org/) is a command-line text editor, created by [Bram Moolenar](http://www.moolenaar.net/).
 It stands for _Vi-IMproved_; _Vi_ was an older ubiquitous editor, which was enhanced to create Vim.
 
