@@ -8,7 +8,7 @@ This requires understanding the concepts of buffers, tabs, and windows.
 A _buffer_ is a container that holds a file in vim.
 Thus, opening a file is equivalent to loading it in a new buffer.
 
-By default, vim requires us to save a buffer before moving on to the next;
+By default, vim requires us to save the current buffer before moving on to another one;
 we can enhance the same to keep multiple unsaved buffers open at a time, using the following configuration in the vimrc:
 ```
 set hidden    // allow multiple files to opened in different buffers, 'hidden' in the background
