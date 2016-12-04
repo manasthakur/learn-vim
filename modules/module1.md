@@ -45,7 +45,42 @@ We can _save-and-quit_ by combining the keystrokes for write (w) and quit (q) in
 If you try to quit vim when some contents in the open file are _unsaved_, vim will throw an error.
 In such a case, either write `:q` to quit without saving the changes, or first save (using `:w`) then quit.
 
-### Extra dose:
+##### Extra dose:
 1. The command `:x` is a shorthand for `:wq`.
 2. The command `:up` (for _update_) writes the file to disk only if the file has unsaved changes.
+
+### Configuring Vim
+Vim has many configuration options, which can be
+* enabled for the current instance of vim by setting them in command mode (e.g., `set option`)
+* enabled across all the instance of vim by writing them in the _vimrc file_.
+
+The default location of the vimrc file is:
+```
+$HOME/.vimrc    // hidden file
+```
+We can simply list the options, one per line, in the vimrc file, like this:
+```
+" This is a comment
+set option1    " This is also a comment
+set option2
+...
+```
+Note that the vimrc file can be commented using the double-quotes (") character.
+
+Some _useful options_ to set in the vimrc file are as follows:
+
+* `set ruler` -- show the current line-number, current column-number, etc. in the status-line (bottom) of vim.
+* `set number` -- show line-numbers in the LHS.
+* `syntax on` or `syntax enable` -- enable syntax-based coloring in different files, based on the extension.
+* `set tabstop=4` -- use 4 characters for tab.
+* `set expandtab` -- replace tab character (`\t` literal) with 4 spaces.
+* `set nocompatible` -- don't worry about backwards compatibility to _Vi_; this enables some additional _Vim_ features.
+
+#### Endnote
+In this module, we learned about some basic operations that allow us to _type_ neatly in vim.
+This is already enough to get you started with using Vim instead of other simple editors (such as TextEdit in macOS).
+In the next module, we will learn about working with multiple files in Vim, _simultaneously_!
+
+Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
+Follow me on [twitter](https://twitter.com/manasthakur17) for updates.
 
