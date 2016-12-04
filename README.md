@@ -17,7 +17,7 @@ We will learn Vim over six modules:
 5. [Plug n Play](modules/module5.md)
 6. [That's not all, Folks!](modules/module6.md)
 
-The first three modules wil be concerned with vanilla (read 'pure') Vim.
+The first three modules will be concerned with vanilla (read 'pure') Vim.
 The fourth module will introduce some external tools and tips for coding in Vim.
 The fifth module will touch upon some popular useful plugins.
 The sixth module will give an insight into some advanced concepts, and tell you how to learn more.
