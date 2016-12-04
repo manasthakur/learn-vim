@@ -1,2 +1,2 @@
-#Learn Vim - Module 3: Being Normal
+##Learn Vim - Module 3: Being Normal
 
