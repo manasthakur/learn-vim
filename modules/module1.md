@@ -23,5 +23,5 @@ The major ones (for now) are:
 
 The following diagram shows how to switch from one mode to the other:
 
-<img src="../images/vim-modes.jpg" width="400px">
+<img src="../images/vim-modes.jpg" width="240px">
 
