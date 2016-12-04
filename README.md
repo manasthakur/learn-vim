@@ -18,12 +18,12 @@ We will learn Vim over six modules:
 5. [Plug n Play](modules/module5.md)
 6. [That's not all, Folks!](modules/module6.md)
 
-The first three modules will be concerned with vanilla (read 'pure') Vim.
-The fourth module will introduce some external tools and tips for coding in Vim.
-The fifth module will touch upon some popular useful plugins.
-The sixth module will give an insight into some advanced concepts, and tell you how to learn more.
+The first three modules (available now) are concerned with vanilla (read 'pure') Vim.
+The fourth module (December 18th) will introduce some external tools and tips for coding in Vim.
+The fifth module (December 25th) will touch upon some popular useful plugins.
+The sixth module (January 1st) will give an insight into some advanced concepts, and tell you how to learn more.
 
-By the end, you will be able to proudly call yourself a _Vim expert_.
+By the end (that is, on New Year's Day), you will be able to proudly call yourself a _Vim expert_.
 So let's get started with [(Not just an) Intro](module-1).
 
 Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
