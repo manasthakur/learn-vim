@@ -11,7 +11,7 @@ Thus, opening a file is equivalent to loading it in a new buffer.
 By default, vim requires us to save a buffer before moving on to the next;
 we can enhance the same to keep multiple unsaved buffers open at a time, using the following configuration in the vimrc:
 ```
-set hidden    // allow multiple files to opened in different buffers, _hidden_ in the background
+set hidden    // allow multiple files to opened in different buffers, 'hidden' in the background
 ```
 
 We can create a new buffer (with a new file) using the command:
