@@ -43,7 +43,7 @@ We can _save-and-quit_ by combining the keystrokes for write (w) and quit (q) in
 :wq    // Save-and-quit. From now on, we will omit writing the prefix <Esc> and the suffix <CR>.
 ```
 If you try to quit vim when some contents in the open file are _unsaved_, vim will throw an error.
-In such a case, either write `:q` to quit without saving the changes, or first save (using `:w`) then quit.
+In such a case, either write `:q!` to quit without saving the changes, or first save (using `:w`) then quit.
 
 ##### Extra dose:
 1. The command `:x` is a shorthand for `:wq`.
