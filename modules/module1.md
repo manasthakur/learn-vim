@@ -1,6 +1,6 @@
 ##Learn Vim - Module 1: (Not just an) Intro
 
-[http://www.vim.org/](Vim) is a command-line text editor, created by [http://www.moolenaar.net/](Bram Moolenar).
+[Vim](http://www.vim.org/) is a command-line text editor, created by [Bram Moolenar](http://www.moolenaar.net/).
 It stands for 'Vi-IMproved'; 'Vi' was an older ubiquitous editor, which was enhanced to create Vim.
 
 To open Vim, just type `vim` at the command-prompt.
