@@ -56,7 +56,7 @@ The following commands help in handling windows in normal mode (`<C-k>` means yo
 
 ### Tabs
 A _tab_ is a collection of windows.
-Note that the concept of tabs is different from that in many other tools in that multiple tabs can be used to view the same file.
+Note that the concept of tabs is different from many other tools as in Vim, multiple tabs can be used to view the same file.
 The common usage of tabs is to use one tab per project-specific layout.
 
 A tab can be _created_ using:
