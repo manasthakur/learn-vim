@@ -1,5 +1,7 @@
 ## Learn Vim - Module 2: BTW -- Buffers, Tabs, Windows
 
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
+
 Module 1 is sufficient to get us started with vim.
 This module starts expanding our vim-knowledge to help us work with _multiple files_.
 This requires understanding the concepts of buffers, tabs, and windows.
