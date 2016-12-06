@@ -1,6 +1,6 @@
 ## Learn Vim - Module 2: BTW -- Buffers, Tabs, Windows
 
-[Home](https:"github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
 
 Module 1 is sufficient to get us started with vim.
 This module starts expanding our vim-knowledge to help us work with _multiple files_.
@@ -40,7 +40,7 @@ In addition, the following shorthands can be used to switch to the next and the 
 _Windows_ are useful to view multiple files side-by-side, in a _split_:
 ```
 :vsplit <file>  or  :vs <file>    " open file in a vertical split
-:split <file> or :sp <file>    " open file in a horizontal split 
+:split <file> or :sp <file>    " open file in a horizontal split
 ```
 
 ##### Extra dose:
@@ -88,8 +88,8 @@ In this module, we learned about some powerful ways to work with multiple files 
 Believe me, many vim users do not understand the difference between buffers, tabs, and windows, and hence either get confused or don't use BTW at all.
 In the next module, we will learn about some amazing features unique to Vim (read _Normal mode_) that make it the most popular text-editor in the world.
 
-[Home](https:"github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
 
-[Star this repository](https:"github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-[Follow me](https:"twitter.com/manasthakur17) on twitter for updates.
+[Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
+[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 
