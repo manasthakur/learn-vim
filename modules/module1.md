@@ -1,8 +1,8 @@
 ## Learn Vim - Module 1: (Not just an) Intro
 
-[Home](https:"github.com/manasthakur/learn-vim/)  |  [Next module](module2.md)
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Next module](module2.md)
 
-[Vim](http:"www.vim.org/) is a command-line text editor, created by [Bram Moolenar](http:"www.moolenaar.net/).
+[Vim](http://www.vim.org/) is a command-line text editor, created by [Bram Moolenar](http://www.moolenaar.net/).
 It stands for _Vi-IMproved_; _Vi_ was an older ubiquitous editor, which was enhanced to create Vim.
 
 To open Vim, just type `vim` at the command-prompt.
@@ -83,8 +83,8 @@ In this module, we learned about some basic operations that allow us to _type_ n
 This is already enough to get you started with using Vim instead of other simple editors (such as TextEdit in macOS).
 In the next module, we will learn about working with multiple files in Vim, _simultaneously_!
 
-[Home](https:"github.com/manasthakur/learn-vim/)  |  [Next module](module2.md)
+[Home](https://github.com/manasthakur/learn-vim/)  |  [Next module](module2.md)
 
-[Star this repository](https:"github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-[Follow me](https:"twitter.com/manasthakur17) on twitter for updates.
+[Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
+[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 
