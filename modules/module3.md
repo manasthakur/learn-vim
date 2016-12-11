@@ -13,7 +13,7 @@ Let us begin with some of them:
 * `b`: beginning of word
 * `c`: change (delete and switch to insert mode); `C`: change till the end of line
 * `d`: delete; `D`: delete till the end of line
-* `e`: end of word
+* `e`: end of current word
 * `f`: find in current line
 * `h`: alias to left arrow
 * `i`: inside, switch to insert mode; `I`: insert at the beginning of line
@@ -21,8 +21,8 @@ Let us begin with some of them:
 * `k`: alias to up arrow
 * `l`: alias to right arrow
 * `n`: next search item; `N`: `n` in reverse order
-* `o`: insert in a newly-created line below; `O`: insert in a newly-created line above
-* `p`: paste next to the cursor position; `P`: paste before the cursor position
+* `o`: open a new line below current line; `O`: open a new line above current line
+* `p`: paste after the cursor position; `P`: paste before the cursor position
 * `t`: till
 * `u`: undo (`<C-r>` is for redo)
 * `v`: visual mode; `V`: visual-line mode; `<C-v>`: visual-block mode
@@ -59,12 +59,12 @@ I strongly recommend you open your Vim and keep testing the same, in parallel.
 | Delete 6 lines	                            | `6dd`	            |
 | Copy current line	                            | `yy`	            |
 | Copy 5 lines	                                | `5yy`	            |
-| Change current word	                        | `cw`	            |
+| Change word	                        	    | `cw`	            |
 | Delete till next _k_	                        | `dtk`	            |
 | Delete including next _k_	                    | `dfk`	            |
 | Change till next _"_	        	            | `ct"`	            |
 | Delete the word inside which the cursor is	| `diw`	            |
-| Delete inside parentheses in current line	    | `di(` or `di)`	|
+| Delete inside parentheses	    	            | `di(` or `di)`	|
 | Change inside quotation marks                 | `ci"`	            |
 | Change around quotation marks	                | `ca"`	            |
 | Delete till _;_	                            | `dt;`	            |
@@ -113,7 +113,7 @@ To temporarily disable relative numbers in the current file, type:
 
 ##### Extra dose:
 * You can scroll down and up in Vim with `<C-f>` and `<C-b>`, respectively.
-* You can jump to the beginning and end of a line with `^` (caret) and the `$` (dollar) keys, respectively.
+* You can jump to the beginning and end of a line with `0` (zero) and the `$` (dollar) keys, respectively.
 Do you think now that `D` (in the alphabet listing above) is actually a shortcut for `d$`?
 
 ### Search-and-replace (in the current buffer)
@@ -132,7 +132,6 @@ Vim also provides a sophisticated mechanism to **replace** occurrences of a word
 :%s/oldword/newword/c	" replace one-by-one
 :%s/oldword/newword/g	" replace all occurrences at once
 ```
-The character `%` denotes the file loaded in the current buffer.
 
 To perform replacement within a block of text:
 
@@ -151,7 +150,7 @@ There is one more interesting option related to searching in Vim:
 ```vim
 set incsearch	" highlight matches as you type
 ```
-This option can be used to see which word(s) related to our search-term actually exist in the file.
+This option can be used to see which word(s) related to our search-term actually exist in the buffer.
 
 ### Pasting text from outside
 We can paste text copied from outside Vim using the corresponding terminal emulator's keys for pasting:
