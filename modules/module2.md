@@ -62,11 +62,11 @@ Note that the concept of tabs is different from many other tools as in Vim, mult
 The common usage of tabs is to use one tab per project-specific layout.
 
 A tab can be _created_ using:
-```vim
+```
 :tabnew <file>    " Open file in a new tab
 ```
 Similarly, the following commands can be used to _switch_ among tabs:
-```vim
+```
 :tabnext    " next tab
 :tabprevious    " previous tab
 ```
