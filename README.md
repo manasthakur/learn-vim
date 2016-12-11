@@ -22,7 +22,7 @@ The fourth module will introduce some external tools and tips for coding in Vim.
 The fifth module will touch upon some popular useful plugins.
 The sixth module will give an insight into some advanced concepts, and tell you how to learn more.
 
-The first three modules are already live! (December 11th, 2016)
+As on December 11th, the first three modules are already live!
 I plan to release each subsequent module on a weekend.
 The link for each unreleased module lists the topics planned to be covered in that module.
 The idea is that by the end (that is, on New Year's Day), you should be able to call yourself a _Vim expert_.
