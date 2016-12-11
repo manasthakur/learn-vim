@@ -76,7 +76,6 @@ Some _useful options_ to set in the vimrc file are as follows:
 * `syntax on` or `syntax enable` -- enable syntax-based coloring in different files, based on the extension.
 * `set tabstop=4` -- use 4 characters for tab.
 * `set expandtab` -- replace tab character (`\t` literal) with 4 spaces.
-* `set nocompatible` -- don't worry about backwards compatibility to _Vi_; this enables some additional _Vim_ features.
 
 #### Endnote:
 In this module, we learned about some basic operations that allow us to _type_ neatly in vim.
