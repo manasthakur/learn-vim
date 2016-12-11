@@ -40,12 +40,11 @@ Note: The above list is far from being comprehensive; we will keep learning Vim 
 Similar to learning any new language (programming or otherwise), learning Vim keystrokes and their usage takes time.
 However, once mastered, it enables blazingly-fast editing, which cannot be achieved using any other editor.
 
-##### Extra dose:
 Most of the normal-mode commands can be prefixed with a number `n` to perform them `n` times.
 For example, `3dd` will perform the `dd` command 3 times; thus, deleting 3 lines at a shot!
 
-We will learn some common usage patterns of the Vim alphabet using example scenarios.
-I strongly recommend you open your Vim now and keep testing the same.
+We will now learn some common usage patterns of the Vim alphabet using example scenarios.
+I strongly recommend you open your Vim and keep testing the same, in parallel.
 
 | Requirement	                                | Command	        |
 | --------------------------------------------- | ----------------- |
