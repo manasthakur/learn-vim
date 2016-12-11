@@ -68,7 +68,7 @@ I strongly recommend you open your Vim and keep testing the same, in parallel.
 | Change inside quotation marks                 | `ci"`	            |
 | Change around quotation marks	                | `ca"`	            |
 | Delete till _;_	                            | `dt;`	            |
-| Copy current word	                            | `yw`	            |
+| Copy word	                            	    | `yw`	            |
 | Copy 4 lines	                                | `4yy`	            |
 | Paste copied line below	                    | `p`	            |
 | Paste copied line 5 times	                    | `5p`	            |
