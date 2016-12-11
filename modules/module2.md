@@ -17,8 +17,8 @@ set hidden    " allow multiple files to opened in different buffers, 'hidden' in
 ```
 
 We can create a new buffer (with a new file) using the command:
-```vim
-:e file-name    " open a new file for editing
+```
+:e file_name    " open a new file for editing
 ```
 This hides the current buffer and reveals a new buffer with the specified file-name.
 
@@ -27,18 +27,18 @@ To _list_ all the currently open buffers, along with their _buffer-ids_ and the 
 :ls    " list buffers
 ```
 Looking at these numbers (buffer-ids), we can _switch_ to different buffers as follows:
-```vim
+```
 :b<buffer-id>    " :b2 will switch to the buffer with id '2'
 ```
 In addition, the following shorthands can be used to switch to the next and the previous buffers (in the order specified in `:ls`):
-```vim
+```
 :bnext  or  :bn    " switch to the next buffer
 :bprevious  or :bp    " switch to the previous buffer
 ```
 
 ### Windows
 _Windows_ are useful to view multiple files side-by-side, in a _split_:
-```vim
+```
 :vsplit <file>  or  :vs <file>    " open file in a vertical split
 :split <file> or :sp <file>    " open file in a horizontal split
 ```

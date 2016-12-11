@@ -114,12 +114,12 @@ To temporarily disable relative numbers in the current file, type:
 ##### Extra dose:
 * You can scroll down and up in Vim with `<C-f>` and `<C-b>`, respectively.
 * You can jump to the beginning and end of a line with `^` (caret) and the `$` (dollar) keys, respectively.
-Do you think now that `D` is actually a shortcut for `d$`?
+Do you think now that `D` (in the alphabet listing above) is actually a shortcut for `d$`?
 
 ### Search-and-replace (in the current buffer)
 Vim provides an easy way to search content in the current buffer (well, searching across buffers is also easy; we will learn it in the next module).
 Type the following in normal mode:
-```vim
+```
 /searchterm<CR>	    " search forwards
 ?searchterm<CR>	    " search backwards
 *	                " search current word forwards
@@ -128,7 +128,7 @@ Type the following in normal mode:
 After searching something, jump to the next and previous occurrences of the search-term using `n` and `N`, respectively.
 
 Vim also provides a sophisticated mechanism to **replace** occurrences of a word in the current buffer:
-```vim
+```
 :%s/oldword/newword/c	" replace one-by-one
 :%s/oldword/newword/g	" replace all occurrences at once
 ```
