@@ -23,6 +23,7 @@ Let us begin with some of them:
 * `n`: next search item; `N`: `n` in reverse order
 * `o`: open a new line below current line; `O`: open a new line above current line
 * `p`: paste after the cursor position; `P`: paste before the cursor position
+* `r`: replace current character; `R`: switch to replace mode
 * `t`: till
 * `u`: undo (`<C-r>` is for redo)
 * `v`: visual mode; `V`: visual-line mode; `<C-v>`: visual-block mode
@@ -72,6 +73,7 @@ I strongly recommend you open your Vim and keep testing the same, in parallel.
 | Copy 4 lines	                                | `4yy`	            |
 | Paste copied line below	                    | `p`	            |
 | Paste copied line 5 times	                    | `5p`	            |
+| Replace till you press Escape	                | `R`	            |
 
 As there can be an infinitely large number of sentences formed with English alphabet, so can be using the Vim alphabet.
 Keep practicing by asking you the question "Can I do this in Vim?", and then trying the combination that comes to your mind and observing the effect(s).
