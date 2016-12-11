@@ -12,33 +12,33 @@ Thus, opening a file is equivalent to loading it in a new buffer.
 
 By default, vim requires us to save the current buffer before moving on to another one;
 we can enhance the same to keep multiple unsaved buffers open at a time, using the following configuration in the vimrc:
-```
+```vim
 set hidden    " allow multiple files to opened in different buffers, 'hidden' in the background
 ```
 
 We can create a new buffer (with a new file) using the command:
-```
+```vim
 :e file-name    " open a new file for editing
 ```
 This hides the current buffer and reveals a new buffer with the specified file-name.
 
 To _list_ all the currently open buffers, along with their _buffer-ids_ and the contained files, type the following:
-```
+```vim
 :ls    " list buffers
 ```
 Looking at these numbers (buffer-ids), we can _switch_ to different buffers as follows:
-```
+```vim
 :b<buffer-id>    " :b2 will switch to the buffer with id '2'
 ```
 In addition, the following shorthands can be used to switch to the next and the previous buffers (in the order specified in `:ls`):
-```
+```vim
 :bnext  or  :bn    " switch to the next buffer
 :bprevious  or :bp    " switch to the previous buffer
 ```
 
 ### Windows
 _Windows_ are useful to view multiple files side-by-side, in a _split_:
-```
+```vim
 :vsplit <file>  or  :vs <file>    " open file in a vertical split
 :split <file> or :sp <file>    " open file in a horizontal split
 ```
@@ -62,11 +62,11 @@ Note that the concept of tabs is different from many other tools as in Vim, mult
 The common usage of tabs is to use one tab per project-specific layout.
 
 A tab can be _created_ using:
-```
+```vim
 :tabnew <file>    " Open file in a new tab
 ```
 Similarly, the following commands can be used to _switch_ among tabs:
-```
+```vim
 :tabnext    " next tab
 :tabprevious    " previous tab
 ```
@@ -79,7 +79,7 @@ A tab can be closed using `:tabclose`.
 Similar to the tabline, Vim also provides a *statusline* at the bottom, which can be used to list various useful information, such as the current line-number, file-type, etc.
 By default, the statusline is shown only when there are more than one buffers open.
 To make the statusline _always visible_, add the following in your vimrc:
-```
+```vim
 set laststatus=2    " always show the statusline
 ```
 

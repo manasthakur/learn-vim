@@ -30,7 +30,7 @@ Let us begin with some of them:
 * `x`: cut
 * `y`: yank (copy)
 
-Some of the commands have a _two-letter_ combinations.
+Some of the commands have a _two-letter_ combination.
 For example:
 * `dd` deletes the current line
 * `cc` changes the current line
@@ -87,13 +87,13 @@ For example,
 There is also a convenience `visual-line` mode that lets you select line-by-line.
 For example,
 
-* `V` followed by `y` selects the current line and copies it.
+* `V` (capital `V`) followed by `y` selects the current line and copies it.
 * `V` followed by `2j` followed by `d` selects the current and the next two lines, and deletes them.
 
 Further, there is a _visual-block_ mode (triggered using `<C-v>`) that lets select text vertically.
 This is very helpful for deleting say a column in a table.
 Just select the column visually and press `d`.
-We will also see how the visual-block mode can be used to _comment_ (and _uncomment_) your code in the next module.
+We will see how the visual-block mode can be used to _comment_ (and _uncomment_) your code in the next module.
 
 ##### Extra dose:
 Vim provides an easy way to toggle the case of typed text.
@@ -103,11 +103,11 @@ We can use `~` (tilde) to toggle the case of a single character, or select some 
 To use numerical values for, say, moving `k` lines down, we usually need to mentally count the number of lines.
 However, in Vim 7.4+, there is a very useful option _relativenumber_, which can be set to explicitly see the line numbers relative to the current line.
 To always use it, set the following in the vimrc file:
-```
+```vim
 set relativenumber
 ```
 To temporarily disable relative numbers in the current file, type:
-```
+```vim
 :set norelativenumber
 ```
 
@@ -119,7 +119,7 @@ Do you think now that `D` is actually a shortcut for `d$`?
 ### Search-and-replace (in the current buffer)
 Vim provides an easy way to search content in the current buffer (well, searching across buffers is also easy; we will learn it in the next module).
 Type the following in normal mode:
-```
+```vim
 /searchterm<CR>	    " search forwards
 ?searchterm<CR>	    " search backwards
 *	                " search current word forwards
@@ -128,7 +128,7 @@ Type the following in normal mode:
 After searching something, jump to the next and previous occurrences of the search-term using `n` and `N`, respectively.
 
 Vim also provides a sophisticated mechanism to **replace** occurrences of a word in the current buffer:
-```
+```vim
 :%s/oldword/newword/c	" replace one-by-one
 :%s/oldword/newword/g	" replace all occurrences at once
 ```
@@ -142,13 +142,13 @@ To perform replacement within a block of text:
 Note that _oldword_ and _newword_ can even be regular expressions, thus opening a plethora of opportunities to ease searching and replacing.
 
 The following option **highlights** all the occurrences of the searched word:
-```
+```vim
 set hlsearch	" highlight searches
 ```
 The search highlights can be cleared using `:nohlsearch` or `:noh`.
 
 There is one more interesting option related to searching in Vim:
-```
+```vim
 set incsearch	" highlight matches as you type
 ```
 This option can be used to see which word(s) related to our search-term actually exist in the file.
@@ -158,7 +158,7 @@ We can paste text copied from outside Vim using the corresponding terminal emula
 `Command-V` for macOS, and `Ctrl-Shift-V` for Linux.
 However, this may sometime randomly indent the pasted text (because of syntax-based indentation for the current file-type).
 To avoid this, Vim provides a special _paste_ mode that can be enabled in such scenarios:
-```
+```vim
 :set paste	    " enable paste-mode
 :set nopaste	" disable paste-mode
 ```
@@ -171,7 +171,7 @@ It can either be used to repeat the previous normal-mode command, or to repeat w
 For example,
 
 * `5dd` --> `.` will delete 10 lines.
-* `/searchword` --> `cw` --> enter new word --> `n` --> `.` will change first word, and its next occurrence.
+* `/searchword` --> `cw` --> enter new word --> `<Esc>` --> `n` --> `.` will change first word, and its next occurrence.
 
 Notice how much the dot command simplifies the repetition.
 And we keep performing repetitive tasks all the time, isn't it?

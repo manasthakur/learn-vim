@@ -11,7 +11,7 @@ However, just in case the symlink does not exist, I recommend typing the whole w
 
 To open a file in the beginning, type `vim file-name` at the command-prompt.
 To open a file inside vim, type:
-```
+```vim
 :e file-name	" 'e' stands for 'edit'
 ```
 
@@ -31,17 +31,17 @@ The _default mode_ when we open vim is the _Normal_ mode.
 
 To start typing like other non-modal editors (e.g., gedit), just press `i` in normal mode, which will land you into the _Insert_ mode.
 Once typing is over, we can _save_ the text by typing `w` in _Command-line_ mode and pressing `Enter` (CR or carriage-return):
-```
+```vim
 <Esc>:w<CR>    " <Esc>: the Escape key; <CR>: the Enter key
 ```
 Note that the above command lands us back into normal mode; thus, to start typing text again, we need to press `i` again.
 
 To _quit_ vim, type either `q` in command-line mode, or `ZZ` in normal mode:
-```
+```vim
 <Esc>:q<CR>  or  <Esc>ZZ    " Quit vim
 ```
 We can _save-and-quit_ by combining the keystrokes for write (w) and quit (q) in command-line mode:
-```
+```vim
 :wq    " Save-and-quit. From now on, we will omit writing the prefix <Esc> and the suffix <CR>.
 ```
 If you try to quit vim when some contents in the open file are _unsaved_, vim will throw an error.
@@ -61,7 +61,7 @@ The default location of the vimrc file is:
 $HOME/.vimrc    " hidden file
 ```
 We can simply list the options, one per line, in the vimrc file, like this:
-```
+```vim
 " This is a comment
 set option1    " This is also a comment
 set option2
