@@ -9,26 +9,26 @@ Vim makes this possible by introducing its own unique, flexible language.
 Many of the letters in the Vim alphabet have several _contextual_ meanings.
 Let us begin with some of them:
 
-* `a`: _a_round, _append_; `A`: append at the end of line
-* `b`: _b_eginning of word
-* `c`: _c_hange (delete and switch to insert mode); `C`: change till the end of line
-* `d`: _d_elete; `D`: delete till the end of line
-* `e`: _e_nd of word
-* `f`: _f_ind in current line
+* `a`: around, append; `A`: append at the end of line
+* `b`: beginning of word
+* `c`: change (delete and switch to insert mode); `C`: change till the end of line
+* `d`: delete; `D`: delete till the end of line
+* `e`: end of word
+* `f`: find in current line
 * `h`: alias to left arrow
-* `i`: _i_nside, switch to _i_nsert mode; `I`: insert at the beginning of line
+* `i`: inside, switch to insert mode; `I`: insert at the beginning of line
 * `j`: alias to down arrow
 * `k`: alias to up arrow
 * `l`: alias to right arrow
-* `n`: _n_ext search item; `N`: `n` in reverse order
+* `n`: next search item; `N`: `n` in reverse order
 * `o`: insert in a newly-created line below; `O`: insert in a newly-created line above
-* `p`: _p_aste next to the cursor position; `P`: paste before the cursor position
-* `t`: _t_ill
-* `u`: _u_ndo (`<C-r> is for redo)
-* `v`: _v_isual mode; `V`: visual-line mode; `<C-v>`: visual-block mode
-* `w`: next _w_ord
+* `p`: paste next to the cursor position; `P`: paste before the cursor position
+* `t`: till
+* `u`: undo (`<C-r>` is for redo)
+* `v`: visual mode; `V`: visual-line mode; `<C-v>`: visual-block mode
+* `w`: next word
 * `x`: cut
-* `y`: _y_ank (copy)
+* `y`: yank (copy)
 
 Some of the commands have a _two-letter_ combinations.
 For example:
@@ -41,7 +41,7 @@ Similar to learning any new language (programming or otherwise), learning Vim ke
 However, once mastered, it enables blazingly-fast editing, which cannot be achieved using any other editor.
 
 ##### Extra dose:
-Most of the normal-mode commands can be prepended with a number `n` to perform them `n` times.
+Most of the normal-mode commands can be prefixed with a number `n` to perform them `n` times.
 For example, `3dd` will perform the `dd` command 3 times; thus, deleting 3 lines at a shot!
 
 We will learn some common usage patterns of the Vim alphabet using example scenarios.
@@ -75,11 +75,11 @@ I strongly recommend you open your Vim now and keep testing the same.
 | Paste copied line 5 times	                    | `5p`	            |
 
 As there can be an infinitely large number of sentences formed with English alphabet, so can be using the Vim alphabet.
-Keep practicing by asking you the question "Can I do this in Vim?", and then trying the combination that comes to your mind and seeing the effect(s).
+Keep practicing by asking you the question "Can I do this in Vim?", and then trying the combination that comes to your mind and observing the effect(s).
 This will be a truly rewarding experience.
 
 ### Visual-mode
-Vim also offers a _visual_ mode to visually select regions of text, before applying a normal-mode command.
+Vim offers a _visual_ mode to visually select regions of text, before applying a normal-mode command.
 For example,
 
 * `vw` followed by `y` selects till next word and copies selection.
@@ -91,13 +91,13 @@ For example,
 * `V` followed by `y` selects the current line and copies it.
 * `V` followed by `2j` followed by `d` selects the current and the next two lines, and deletes them.
 
-There is also a _visual-block_ mode (triggered using `<C-v>`) that lets select text vertically.
+Further, there is a _visual-block_ mode (triggered using `<C-v>`) that lets select text vertically.
 This is very helpful for deleting say a column in a table.
 Just select the column visually and press `d`.
 We will also see how the visual-block mode can be used to _comment_ (and _uncomment_) your code in the next module.
 
 ##### Extra dose:
-Vim provides an easy way to toggle the case of types text.
+Vim provides an easy way to toggle the case of typed text.
 We can use `~` (tilde) to toggle the case of a single character, or select some text (using visual-mode) and use `~` to toggle the case of the selection..
 
 ### Navigating faster with relative numbers
@@ -113,7 +113,9 @@ To temporarily disable relative numbers in the current file, type:
 ```
 
 ##### Extra dose:
-You can scroll down and up in Vim with `<C-f>` and `<C-b>`, respectively.
+* You can scroll down and up in Vim with `<C-f>` and `<C-b>`, respectively.
+* You can jump to the beginning and end of a line with `^` (caret) and the `$` (dollar) keys, respectively.
+Do you think now that `D` is actually a shortcut for `d$`?
 
 ### Search-and-replace (in the current buffer)
 Vim provides an easy way to search content in the current buffer (well, searching across buffers is also easy; we will learn it in the next module).
@@ -128,17 +130,17 @@ After searching something, jump to the next and previous occurrences of the sear
 
 Vim also provides a sophisticated mechanism to **replace** occurrences of a word in the current buffer:
 ```
-:%s/wordold/wordnew/c	" replace one-by-one
-:%s/wordold/wordnew/g	" replace all occurrences at once
+:%s/oldword/newword/c	" replace one-by-one
+:%s/oldword/newword/g	" replace all occurrences at once
 ```
 The character `%` denotes the file loaded in the current buffer.
 
 To perform replacement within a block of text:
 
 * First select the text using visual mode.
-* `:s/wordold/wordnew/c` or `:s/wordold/wordnew/g`
+* `:s/oldword/newword/c` or `:s/oldword/newword/g`
 
-Note that _wordold_ and _wordnew_ can even be regular expressions, thus opening a plethora of opportunities to ease searching and replacing.
+Note that _oldword_ and _newword_ can even be regular expressions, thus opening a plethora of opportunities to ease searching and replacing.
 
 The following option **highlights** all the occurrences of the searched word:
 ```
@@ -176,7 +178,7 @@ Notice how much the dot command simplifies the repetition.
 And we keep performing repetitive tasks all the time, isn't it?
 
 #### Endnote:
-In this module, we learned a plethora of tricks to make us adapt the _Vim way_ of editing text.
+In this module, we learned a plethora of tricks to make us adapt to the _Vim way_ of editing text.
 Even though the learning curve is a bit steep, the joy that it will give you will be overwhelming.
 In the next module, we will tighten our belts and learn how the coder-you-envy writes code at the speed of thought using Vim.
 Till then, keep practicing.
