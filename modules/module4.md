@@ -19,7 +19,7 @@ ctags -R	" Build tags recursively
 The above command creates a `tags` file in your directory, containing a list of tags that ctags can parse very fast.
 Note that you need to repeat the command regularly to update the tags after you make changes in your project.
 
-Now, in a cpp file, say you are at a function call `foo()`.
+Now, say you are at a function call `foo()` in a cpp file.
 To jump to the definition of `foo`, just press `Ctrl=]`.
 Whoa! This even jumps across files!
 To get back to where you were, press `Ctrl-t`.
@@ -34,7 +34,7 @@ Post installation, similar to ctags, you first need to build a database for csco
 For example, to build a cscope-database for all the cpp files in your directory, use:
 ```
 find . -name '*.cpp' > cscope.files
-cscope -R	" Build cscope-database reursively (in a file `cscope.out`)
+cscope -R	" Build cscope-database recursively (in a file `cscope.out`)
 ```
 
 Now let's say you want to get all the call-sites of the method `foo`.
@@ -114,12 +114,12 @@ In module 3, we had learnt that we can search in the current buffer using the `/
 To search across multiple files, we can use **grep** (yes, the one you use in a terminal) along with all its options, in the command-line mode of Vim.
 For example, to recursively search for the word `sophisticated` in the current directory, use:
 ```
-:grep -R 'sophisticated' .	    " search the word 'sophisticated' recursively (-R) in the current directory (.)
+:grep -R 'sophisticated' .	" search the word 'sophisticated' recursively (-R) in the current directory (.)
 ```
 The advantage of using grep within Vim is that it loads all the search-results in the **quickfix window**.
 To understand this, once you have searched for a word using `grep`, type `:copen` in the command-line mode.
 This creates a new split in your Vim with all the search occurrences.
-You can either use the arrow-key to jump to any results (use `<C-w>w` to switch windows),
+You can either use the arrow keys with `<CR>` to jump to any results (use `<C-w>w` to switch windows),
 or use the following commands to jump to the next and the previous search-result, respectively:
 ```
 :cnext	    " jump to the next entry in the quickfix window
@@ -223,7 +223,7 @@ Let's break down the mapping:
 If the mapping should work in all the modes, drop the `n`.
 Similarly, `imap` is for the insert mode.
 - The first string till a space (`C` in `<C-l>` stands for the `Ctrl` key) is the map that we are creating.
-- The second string till the end-of-line is the command that we wish to map the first string to.
+- The second string is the command that we wish to map the first string to.
 Here we have mapped `<C-l>` to first go to the command-line mode, type `nohlsearch`, and then press enter (`<CR>`).
 
 It is advisable to always use `noremap` instead of `map` to avoid recursive mappings (map within a map).
