@@ -9,7 +9,7 @@ This module is a set of things that I had forgotten to add before starting out w
 ### Which Vim?
 
 There are two kinds of Vim available -- one that runs in your terminal emulator, and another that runs as an independent graphical application.
-The terminal one comes by defaults on most operating systems.
+The terminal one comes by default on most operating systems.
 However, it might not be the latest one.
 
 * On _Linux_ systems, you can install `vim-enhanced` to get the recent terminal-vim using your favorite package manager.
