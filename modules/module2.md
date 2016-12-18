@@ -91,5 +91,4 @@ In the next module, we will learn about some amazing features unique to Vim (rea
 [Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module1.md)  |  [Next module](module3.md)
 
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 

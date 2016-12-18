@@ -313,5 +313,4 @@ In the next module, we will see how some of the existing functionalities can be 
 [Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module3.md)  |  [Next module](module5.md)
 
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 

@@ -186,5 +186,4 @@ Till then, keep practicing.
 [Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module2.md)  |  [Next module](module4.md)
 
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 

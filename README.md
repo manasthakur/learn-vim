@@ -31,6 +31,5 @@ The idea is that by the end (that is, on New Year's Day, 2017), you should be ab
 So let's get started with [(Not just an) Intro](modules/module1.md).
 
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-You can [follow me](https://twitter.com/manasthakur17) on twitter for updates.
 Feel free to send bricks and bouquets to `manasthakur17@gmail.com`.
 

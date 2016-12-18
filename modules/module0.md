@@ -38,5 +38,4 @@ _This tutorial is just a small set of the features of Vim. It is neither complet
 [Home](https://github.com/manasthakur/learn-vim/)  |  [Next module](module1.md)
 
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
-[Follow me](https://twitter.com/manasthakur17) on twitter for updates.
 
