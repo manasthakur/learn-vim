@@ -8,7 +8,7 @@ Welcome to the most unique tutorial on Vim -- the best text-editor on the planet
 - No screenshots! Supposed to be followed with Vim open alongside
 
 ### Modules:
-We will learn Vim over seven modules:
+We will learn Vim over the following modules:
 
 * [Module Zero: The Forgotten One] (modules/module0.md)
 * [(Not just an) Intro](modules/module1.md)
