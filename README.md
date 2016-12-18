@@ -8,16 +8,17 @@ Welcome to the most unique tutorial on Vim -- the best text-editor on the planet
 - No screenshots! Supposed to be followed with Vim open alongside
 
 ### Modules:
-We will learn Vim over six modules:
+We will learn Vim over seven modules:
 
-0. [The Forgotten One] (modules/module0.md)
-1. [(Not just an) Intro](modules/module1.md)
-2. [BTW (Buffers, Tabs, Windows)](modules/module2.md)
-3. [Being Normal](modules/module3.md)
-4. [Coderz](modules/module4.md)
-5. [Plug n Play](modules/module5.md)
-6. [That's not all, Folks!](modules/module6.md)
+* [The Forgotten One] (modules/module0.md)
+* [(Not just an) Intro](modules/module1.md)
+* [BTW (Buffers, Tabs, Windows)](modules/module2.md)
+* [Being Normal](modules/module3.md)
+* [Coderz](modules/module4.md)
+* [Plug n Play](modules/module5.md)
+* [That's not all, Folks!](modules/module6.md)
 
+The zeroeth module is a precursor to the tutorial.
 The first three modules will be concerned with vanilla (read 'pure') Vim.
 The fourth module will introduce some external tools and tips for coding in Vim.
 The fifth module will touch upon some popular useful plugins.
