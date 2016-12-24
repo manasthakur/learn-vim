@@ -34,7 +34,7 @@ Post installation, similar to ctags, you first need to build a database for csco
 For example, to build a cscope-database for all the cpp files in your directory, use:
 ```
 find . -name '*.cpp' > cscope.files
-cscope -R	" Build cscope-database recursively (in a file `cscope.out`)
+cscope -Rb	" Build cscope-database recursively (in a file `cscope.out`)
 ```
 
 Now let's say you want to get all the call-sites of the method `foo`.
