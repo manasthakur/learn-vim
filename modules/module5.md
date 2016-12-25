@@ -106,7 +106,7 @@ Some popular fuzzy-finding plugins are:
 Vim supports sessions, which means that you can create project-specific
 workspaces that can later be loaded as it is.
 There are a handful of plugins that make managing sessions easily (instead
-of manually running `:mksession` and `:source` commands to create and load a
+of having to manually run `:mksession` and `:source` commands to create and load a
 session, respectively):
 
 * [vim-sessionist](https://github.com/manasthakur/vim-sessionist): written by
