@@ -45,7 +45,7 @@ loaded in the following format:
 Plug 'github-repo'
 ```
 For example, to use a plugin available at
-[](https://github.com/manasthakur/vim-sessionist), you need to add the following
+[http://vimawesome.com/?q=cat%3Alanguage](https://github.com/manasthakur/vim-sessionist), you need to add the following
 line (after setting up vim-plug):
 ```vim
 Plug 'manasthakur/vim-sessionist'
