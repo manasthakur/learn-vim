@@ -69,7 +69,7 @@ some plugin, there are two great ways to know about existing Vim plugins:
 
 Vimawesome is a great resource that sorts plugins submitted to the website based
 on categories and popularity.
-Tim Pope writes awesome plugins that blend into Vim so smoothly, that people often
+TPope writes awesome plugins that blend into Vim so smoothly, that people often
 wonder whether they are part of the default Vim itself.
 Junegunn writes super-performing plugins with a sleek interface.
 Shougo writes heavyweight but feature-rich plugins.
