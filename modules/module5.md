@@ -42,10 +42,10 @@ downloads and updates plugins in parallel, thus speeding up the whole process.
 If you are using Vim-plug, you need to specify each plugin that you wish to be
 loaded in the following format:
 ```vim
-Plug 'github-repo```
+Plug 'github-repo'
 ```
 For example, to use a plugin available at
-`https://github.com/manasthakur/vim-sessionist`, you need to add the following
+[](https://github.com/manasthakur/vim-sessionist), you need to add the following
 line (after setting up vim-plug):
 ```vim
 Plug 'manasthakur/vim-sessionist'
