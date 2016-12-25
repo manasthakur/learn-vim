@@ -24,10 +24,10 @@ The fourth module will introduce some and tips external tools for coding in Vim.
 The fifth module will touch upon some popular useful plugins.
 The sixth module will give an insight into some advanced concepts, and tell you how to learn more.
 
-As on December 18th, 2016, the first four modules are already live!
+As on December 25th, 2016, the first five modules are already live!
 I plan to release each subsequent module on a weekend.
 The link for each unreleased module lists the topics planned to be covered in that module.
-The idea is that by the end (that is, on New Year's Day, 2017), you should be able to call yourself a _Vim expert_.
+The idea is that by the end (that is, on New Year's Day, 2017), you should be able to call yourself an _Advanced Vimmer_.
 So let's get started with [(Not just an) Intro](modules/module1.md).
 
 [Star this repository](https://github.com/manasthakur/learn-vim/) on GitHub if you like the tutorial.
