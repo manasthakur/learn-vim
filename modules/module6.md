@@ -144,6 +144,9 @@ his tastes:
 [vim-solarized](https://github.com/manasthakur/vim-solarized)
 and
 [vim-seoul](https://github.com/manasthakur/vim-seoul). 
+He is currently using the seoul theme, which looks like this:
+
+![authors-vim](images/authorsvim.png)
 
 ### Vim directory hierarchy 
 Have you ever wondered where how does Vim load your plugins?
