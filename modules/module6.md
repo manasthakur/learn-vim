@@ -64,27 +64,27 @@ as well.
 Scope for macros!
 Do the following:
 
-1. Start recording the macro in register `k`:
+- Start recording the macro in register `k`:
 ```
 qk
 ```
 
-2. Type the key-sequence for the first line:
+- Type the key-sequence for the first line:
 ```
 0fscwsimple<Esc>:w<CR>
 ```
 
-3. End the recording:
+- End the recording:
 ```
 q
 ```
 
-4. Go to next line:
+- Go to next line:
 ```
 j
 ```
 
-5. Play the macro:
+- Play the macro:
 ```
 @k
 ```
