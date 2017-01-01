@@ -43,7 +43,7 @@ See the magic!
 #### Macros 
 Macros are one of the best time-savers of Vim.
 You can _record_ any key-sequence into a register by typing the sequence once
-between `q<register>` and `q`, and then _play_ the sequence using `@<register`.
+between `q<register>` and `q`, and then _play_ the sequence using `@<register>`.
 
 Let's consider an example scenario.
 Say you have a big file consisting of several lines that look like this:
@@ -63,26 +63,32 @@ Then you realize that you can actually use the same key-sequence for other lines
 as well.
 Scope for macros!
 Do the following:
+
 1. Start recording the macro in register `k`:
 ```
 qk
 ```
+
 2. Type the key-sequence for the first line:
 ```
 0fscwsimple<Esc>:w<CR>
 ```
+
 3. End the recording:
 ```
 q
 ```
+
 4. Go to next line:
 ```
 j
 ```
+
 5. Play the macro:
 ```
 @k
 ```
+
 Enjoy!
 
 ##### Extra dose:
@@ -98,9 +104,9 @@ You can put the following autocommand into your vimrc:
 augroup VIMRC
 	autocmd!
 	autocmd FileType markdown setlocal spell 
-END
+augroup END
 ```
-Notice that we have written the autocommand in a group (using `augroup VIMRC ...  END`).
+Notice that we have written the autocommand in a group (using `augroup VIMRC ... augroup END`).
 This and the first line (`autocmd!`) are used to flush the autocommands for a
 particular group when you reload your vimrc.
 Otherwise, you will end up having multiple copies of the same autocommand.
@@ -114,8 +120,8 @@ version of Vim supports.
 Bored of the default look of your favorite editor?
 Vim can be made to look entirely different by using colorschemes.
 To change the default colorscheme to something else, use the following command:
-```vim
-colorscheme <TAB>
+```
+:colorscheme <TAB>
 ```
 This gives you a list of colorschemes (keep pressing tab);
 you can press Enter and make the one you like permanent by adding the following
@@ -139,25 +145,25 @@ There is also a [colorscheme pack to rule them
 all](https://github.com/flazz/vim-colorschemes) that packages a large number of
 colorschemes in a single plugin.
 
-Your beloved author also maintains two customized colorscheme plugins based on
+Your beloved author also maintains two customized colorschemes based on
 his tastes:
 [vim-solarized](https://github.com/manasthakur/vim-solarized)
 and
 [vim-seoul](https://github.com/manasthakur/vim-seoul). 
 He is currently using the seoul theme, which looks like this:
 
-<img src="../images/authors-vim.png" width="600px">
+<img src="../images/authors-vim.jpg">
 
 ### Vim directory hierarchy 
-Have you ever wondered where how does Vim load your plugins?
+Have you ever wondered how does Vim load your plugins?
 
 Vim recognizes a special directory called `.vim` (hidden) in your home
 directory (`~`).
-You can put your `.vim` files inside a predefined hierarchy inside the .vim
+You can put your configuration files in a predefined hierarchy inside the .vim
 directory in order to get them loaded automatically.
 
 The .vim directory may include the following sub-directories (apart from some others):
-* __plugin__: Any file inside this directory is loaded every time you open Vim.
+* __plugin__: Files inside this directory are loaded every time you open Vim.
 * __autoload__: Files that are loaded on-demand (containing say function
   definitions).
 * __ftplugin__: FileType specific files. Thus a file `markdown.vim` inside
@@ -166,7 +172,7 @@ The .vim directory may include the following sub-directories (apart from some ot
 * __colors__: Colorscheme files.
 * __syntax__: Files for specifying syntax-based highlights and/or indentation.
 * __doc__: Documentation files.
-* after: Files that should be loaded after plugins.
+* __after__: Files that should be loaded after plugins.
 
 Thus, an easy way to install a plugin is to simply copy the files that exist in
 corresponding plugin folders to the respective folders inside your .vim
@@ -182,7 +188,7 @@ A few of the most interesting ones are:
 
 * __Async support__: Lets commands (e.g., compilation) run in the background.
 * __Packages__: Provides [pathogen](https://github.com/tpope/vim-pathogen) like
-  in-build plugin-management functionality (see `:help packages`in Vim8).
+  in-built plugin-management functionality (see `:help packages` in Vim8).
 * __defaults.vim__: A useful vimrc that is enabled by _default_.
 
 We can hope to see many more plugins taking advantage of the above features
@@ -191,7 +197,7 @@ to provide an even enhanced and faster Vim in future.
 ### Neovim
 [Neovim](https://neovim.io/) is a fork of Vim that has gained huge popularity
 recently.
-It is community-drive, more feature-rich, and claims to have a cleaner
+It is community-driven, more feature-rich, and claims to have a cleaner
 code-base.
 
 Many plugins have been created specifically for Neovim, and many others have
@@ -216,8 +222,8 @@ However, it will be interesting to see the course it takes.
 That's all from my side, folks!
 This is the end to the six-part tutorial on Vim.
 I truly enjoyed writing it.
-I have been getting many mails that praise the tutorial, appreciate my sticking
-to the announced schedule, and suggest improvements.
+I have been getting many mails that praise the tutorial, appreciate the
+schedule, and suggest improvements.
 I am thankful to all of them and to my readers.
 Stay in touch and ... __Keep Vimming__.
 
