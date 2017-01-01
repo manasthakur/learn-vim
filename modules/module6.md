@@ -146,7 +146,7 @@ and
 [vim-seoul](https://github.com/manasthakur/vim-seoul). 
 He is currently using the seoul theme, which looks like this:
 
-![authors-vim](images/authorsvim.png)
+<img src="../images/authors-vim.png" width="600px">
 
 ### Vim directory hierarchy 
 Have you ever wondered where how does Vim load your plugins?
