@@ -213,7 +213,8 @@ However, it will be interesting to see the course it takes.
 * A very detailed guide on Vim:
   [vim-galore](https://github.com/mhinz/vim-galore)
 * An excellent guideline on sculpting your vimrc:
-  [idiomatic-vimrc](https://github.com/mhinz/vim-galore)
+  [idiomatic-vimrc](https://github.com/romainl/idiomatic-vimrc)
+* My articles: [gists](https://gist.github.com/manasthakur)
 * For doubts and queries: [vistackexchange](http://vi.stackexchange.com)
 * For interesting announcements and discussions: [vim
   subreddit](https://www.reddit.com/r/vim/)
