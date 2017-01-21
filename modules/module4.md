@@ -20,7 +20,7 @@ The above command creates a `tags` file in your directory, containing a list of 
 Note that you need to repeat the command regularly to update the tags after you make changes in your project.
 
 Now, say you are at a function call `foo()` in a cpp file.
-To jump to the definition of `foo`, just press `Ctrl=]`.
+To jump to the definition of `foo`, just press `Ctrl-]`.
 Whoa! This even jumps across files!
 To get back to where you were, press `Ctrl-t`.
 If there are multiple functions with the name `foo`, you will get a list to select from.
