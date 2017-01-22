@@ -164,7 +164,7 @@ directory in order to get them loaded automatically.
 
 The .vim directory may include the following sub-directories (apart from some others):
 * __plugin__: Files inside this directory are loaded every time you open Vim.
-* __autoload__: Files that are loaded on-demand (containing say function
+* __autoload__: Files that are loaded on-demand (useful for function
   definitions).
 * __ftplugin__: FileType specific files. Thus a file `markdown.vim` inside
   `ftplugin` should consist of settings required only for a markdown file (an
@@ -174,7 +174,7 @@ The .vim directory may include the following sub-directories (apart from some ot
 * __doc__: Documentation files.
 * __after__: Files that should be loaded after plugins.
 
-Thus, an easy way to install a plugin is to simply copy the files that exist in
+Thus, a naive way to install a plugin is to simply copy the files that exist in
 corresponding plugin folders to the respective folders inside your .vim
 directory.
 Vim takes care of the rest. 
@@ -203,7 +203,7 @@ code-base.
 Many plugins have been created specifically for Neovim, and many others have
 been advertising themselves to be catering to both - Vim and Neovim.
 
-Neovim is not installed by default on many OSes yet.
+Neovim is not installed by default on most OSes yet.
 Further, the releases are sometimes buggy.
 However, it will be interesting to see the course it takes.
 
@@ -214,7 +214,7 @@ However, it will be interesting to see the course it takes.
   [vim-galore](https://github.com/mhinz/vim-galore)
 * An excellent guideline on sculpting your vimrc:
   [idiomatic-vimrc](https://github.com/romainl/idiomatic-vimrc)
-* My articles: [gists](https://gist.github.com/manasthakur)
+* My articles on advanced features: [gists](https://gist.github.com/manasthakur)
 * For doubts and queries: [vistackexchange](http://vi.stackexchange.com)
 * For interesting announcements and discussions: [vim
   subreddit](https://www.reddit.com/r/vim/)

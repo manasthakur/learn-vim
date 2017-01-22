@@ -8,7 +8,7 @@ And thanks to the community, there are literally thousands of freely-available,
 open-source plugins for Vim that can be used as it is.
 
 It is advisable not to pollute your Vim setup with unnecessary plugins; even
-though tempting, such a practice can take away what Vim is most famous for
+though tempting, such a practice can take away one of the important things Vim is famous for
 -- its performance.
 Further, you need to remember that a set of plugins that you have installed on
 your machine might not be available on a different machine that you need to log
@@ -74,9 +74,9 @@ wonder whether they are part of the default Vim itself.
 Junegunn writes super-performing plugins with a sleek interface.
 Shougo writes heavyweight but feature-rich plugins.
 
-Before choosing a plugin, also see whether it is being recently updated.
-If not, chances are that it won't add any new features; in that case, better try
-another recent alternative.
+While choosing a plugin for a particular task, compare it with other similar
+ones to find out whether the issues are resolved, is an alternative recommended
+more, and so on.
 
 ### Some useful plugins
 Here, I will categorically list out some plugins that I find useful.
@@ -137,17 +137,17 @@ into one.
 Some notable ones are:
 
 * [SuperTab](https://github.com/ervandew/supertab): the classic plugin that lets
-  you complete everything using a `<TAB`>.
-* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe): apart from default
-  completions, also provides language-based completion (like IDEs); needs
-  linking with external tools.
+  you complete everything using the `<Tab`> key.
 * [VimCompletesMe](https://github.com/ajh17/VimCompletesMe): a very lightweight
   alternative to SuperTab.
 * [vim-mucomplete](https://github.com/lifepillar/vim-mucomplete): offers
   automatic chained completion (fall-back to another mode if one fails).
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe): apart from default
+  completions, also provides language-based completion (like IDEs); needs
+  linking with external tools.
 
 #### Integration
-Many plugins let you integrate with external commands/tools that you need to
+Many plugins let you integrate Vim with external commands/tools that you need to
 use regularly while editing code.
 These plugins allow you to adapt a workflow in which you rarely leave Vim.
 A few interesting ones are:

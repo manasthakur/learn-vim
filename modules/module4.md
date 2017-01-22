@@ -18,6 +18,8 @@ ctags -R	" Build tags recursively
 ```
 The above command creates a `tags` file in your directory, containing a list of tags that ctags can parse very fast.
 Note that you need to repeat the command regularly to update the tags after you make changes in your project.
+[See this](https://github.com/manasthakur/git_template) to know how you can partially
+automate tag-generation in git repositories.
 
 Now, say you are at a function call `foo()` in a cpp file.
 To jump to the definition of `foo`, just press `Ctrl-]`.
@@ -28,17 +30,18 @@ If there are multiple functions with the name `foo`, you will get a list to sele
 ##### Extra dose:
 Note that ctags maintains a stack of your jump-locations.
 Thus, you can keep jumping from one function-call to another using `Ctrl-]`, and pop back repeatedly using `Ctrl-t`.
+Check out `:help tags` to learn more about using tags in Vim.
 
-**Cscope** is an even advanced tool that not only supersedes what ctags does, but also lets you jump to the call-sites of a method.
+**Cscope** is an advanced tool that mostly supersedes what ctags does, and also lets you jump to the call-sites of a method.
 Post installation, similar to ctags, you first need to build a database for cscope.
 For example, to build a cscope-database for all the cpp files in your directory, use:
 ```
 find . -name '*.cpp' > cscope.files
-cscope -Rb	" Build cscope-database recursively (in a file `cscope.out`)
+cscope -Rb	" Build cscope-database recursively (in a file 'cscope.out')
 ```
 
 Now let's say you want to get all the call-sites of the method `foo`.
-Stay over the function header and type `Ctrl-\ c` to get the list of all the callers of `foo`.
+Stay over the function header and type `Ctrl-\ c` to get the list of all the callers of `foo` (if you are using the file containing default mappings from the cscope website).
 Refer to the [cscope website](http://cscope.sourceforge.net/) to learn about many other features of cscope.
 
 ### Indenting code
@@ -48,7 +51,7 @@ Vim supports indentation for programs written in almost every language (and othe
 The following two options are useful in this regard:
 ```vim
 filetype indent on	" enable file-type based indentation
-set autoindent	    " indent next line based on the previous one (e.g., whether it's a `{`)
+set autoindent	    " indent next line based on the previous one (e.g., whether it's a '{')
 ```
 But you had not enabled these in the beginning.
 Or someone gave you a very badly-indented file.
@@ -80,7 +83,7 @@ set showmatch
 ```
 Now, if your cursor is on say, the opening bracket, press `%` to jump to the corresponding closing bracket.
 
-There is another secret built-in plugin (called _matchit_) that also allows you to jump to the corresponding keywords (for example, `endif` for `if`), using the `%` operator.
+Vim has a "secret" built-in plugin (called _matchit_) that also allows you to jump to the corresponding keywords (for example, `endif` for `if`), using the `%` operator.
 Add the following line to your vimrc file to enable this plugin by default:
 ```vim
 runtime! macros/matchit.vim
@@ -139,6 +142,9 @@ Note that in the last command, as we have replaced all the occurrences in one sh
 In the former case, you need to save the buffers explicitly --  either one-by-one, or using `:wall`.
 
 Combine the above commands with regular expressions, and see Vim do wonders with searching and replacement.
+Check out [this
+article](https://gist.github.com/manasthakur/5afd3166a14bbadc1dc0f42d070bd746)
+to learn how to simplify the above process further.
 
 ### Diffing files
 
@@ -184,7 +190,7 @@ In insert-mode, just type a few characters and press the following to complete i
 The last entry (omni-completion) needs special mention.
 Omni-completion lets you complete keywords based on special characters.
 For example, in c/cpp programs, omni-completion will let you complete after typing `.` or `->` operators.
-To see a list of languages for which Vim provides omni-completion, use `:help omni<TAB>`.
+To see a list of languages for which Vim provides omni-completion, use `:help omni<Tab>`.
 
 These are not the only completion-types available.
 Use `:help ins-completion` to get the comprehensive list.
@@ -236,6 +242,8 @@ Following is a small list of the keystrokes used to represent the special-keys o
 * `C` stands for `Ctrl`
 * `M` stands for `Alt/Option`
 * `CR` stands for `Enter`
+* `Tab` is for the `TAB` key
+* `Space` is for the `SPACE` bar
 
 Mappings are mostly created by appending them to a **leader** key (in order to avoid conflicts with the existing commands).
 The default leader is the `\` (backslash) key.
@@ -243,7 +251,7 @@ Thus, the following map would clear the search highlights using `\l`:
 ```vim
 nnoremap <leader>l :nohlsearch<CR>	    " clear search-highlights using `\l`
 ```
-I am not covering how to change the leader key in this tutorial.
+You can even change the leader key, globally as well as locally. See `:help mapleader` for details.
 
 You can add multiple commands in a map using the `<bar>` (or `|`) operator.
 Thus, to save your code and then build it using `\m`, you can have the following mapping:
