@@ -67,7 +67,7 @@ I strongly recommend you open your Vim and keep testing the same, in parallel.
 | Delete the word inside which the cursor is	| `diw`	            |
 | Delete inside parentheses	    	            | `di(` or `di)`	|
 | Change inside quotation marks                 | `ci"`	            |
-| Change around quotation marks	                | `ca"`	            |
+| Change including quotation marks	                | `ca"`	            |
 | Delete till _;_	                            | `dt;`	            |
 | Copy word	                            	    | `yw`	            |
 | Copy 4 lines	                                | `4yy`	            |
@@ -76,7 +76,7 @@ I strongly recommend you open your Vim and keep testing the same, in parallel.
 | Replace till you press Escape	                | `R`	            |
 
 As there can be an infinitely large number of sentences formed with English alphabet, so can be using the Vim alphabet.
-Keep practicing by asking you the question "Can I do this in Vim?", and then trying the combination that comes to your mind and observing the effect(s).
+Keep practicing by asking yourself the question "Can I do this in Vim?", and then trying the combination that comes to your mind and observing the effect(s).
 This will be a truly rewarding experience.
 
 ### Visual-mode
@@ -95,7 +95,6 @@ For example,
 Further, there is a _visual-block_ mode (triggered using `<C-v>`) that lets select text vertically.
 This is very helpful for deleting say a column in a table.
 Just select the column visually and press `d`.
-We will see how the visual-block mode can be used to _comment_ (and _uncomment_) your code in the next module.
 
 ##### Extra dose:
 Vim provides an easy way to toggle the case of typed text.
@@ -116,7 +115,7 @@ To temporarily disable relative numbers in the current file, type:
 ##### Extra dose:
 * You can scroll down and up in Vim with `<C-f>` and `<C-b>`, respectively.
 * You can jump to the beginning and end of a line with `0` (zero) and the `$` (dollar) keys, respectively.
-Do you think now that `D` (in the alphabet listing above) is actually a shortcut for `d$`?
+Do you think now that `D` (in the alphabet listing above) is actually a shorthand for `d$`?
 
 ### Search-and-replace (in the current buffer)
 Vim provides an easy way to search content in the current buffer (well, searching across buffers is also easy; we will learn it in the next module).
@@ -168,7 +167,7 @@ We will learn how to _map_ keys to perform such small tasks in the next module.
 
 ### Simple is Powerful: The dot command
 The most powerful (yet simple) command in Vim is the _repeat_ (or dot) command.
-It can either be used to repeat the previous normal-mode command, or to repeat whatever you did in insert mode till you press the `<Esc>` key.
+It can either be used to repeat the previous normal-mode command, or to repeat whatever you did in insert mode till you pressed the `<Esc>` key.
 For example,
 
 * `5dd` --> `.` will delete 10 lines.

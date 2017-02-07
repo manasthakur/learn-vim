@@ -13,7 +13,7 @@ Thus, opening a file is equivalent to loading it in a new buffer.
 By default, vim requires us to save the current buffer before moving on to another one;
 we can enhance the same to keep multiple unsaved buffers open at a time, using the following configuration in the vimrc:
 ```vim
-set hidden    " allow multiple files to opened in different buffers, 'hidden' in the background
+set hidden    " allow multiple files to be opened in different buffers, 'hidden' in the background
 ```
 
 We can create a new buffer (with a new file) using the command:
@@ -35,6 +35,8 @@ In addition, the following shorthands can be used to switch to the next and the 
 :bnext  or  :bn    " switch to the next buffer
 :bprevious  or :bp    " switch to the previous buffer
 ```
+To close the current buffer (and hence the contained file), we can use `:bd` (or
+`:bdelete`).
 
 ### Windows
 _Windows_ are useful to view multiple files side-by-side, in a _split_:
@@ -49,16 +51,17 @@ This allows us to view (and edit) different portions of the same file side-by-si
 Awesome, right?
 In fact, this feature (along with many others) was unique to Vim, and is now being implemented in many other text-editors and IDEs as well.
 
-The following commands help in handling windows in normal mode (`<C-k>` means you have to press `Ctrl+k`):
+The following commands help in handling windows in normal mode (`<C-w>` means you have to press `Ctrl+w`):
 
 * `<C-w>c` (or `:q`) -- close current window
-* `<C-w>w` -- switch to next window
+* `<C-w>w` -- cycle to next window
+* `<C-w>p` -- switch to previous window
 * `<C-w>r` -- rotate the window-pattern
 * `<C-w><arrow-key>` -- switch among windows
 
 ### Tabs
 A _tab_ is a collection of windows.
-Note that the concept of tabs is different from many other tools as in Vim, multiple tabs can be used to view the same file.
+Note that the concept of tabs is different from many other tools, as in Vim, multiple tabs can be used to view the same file.
 The common usage of tabs is to use one tab per project-specific layout.
 
 A tab can be _created_ using:
@@ -78,7 +81,7 @@ A tab can be closed using `:tabclose`.
 ##### Extra dose:
 Similar to the tabline, Vim also provides a *statusline* at the bottom, which can be used to list various useful information, such as the current line-number, file-type, etc.
 By default, the statusline is shown only when there are more than one buffers open.
-To make the statusline _always visible_, add the following in your vimrc:
+To make the statusline _always visible_, add the following to your vimrc:
 ```vim
 set laststatus=2    " always show the statusline
 ```

@@ -13,7 +13,7 @@ The terminal one comes by default on most operating systems.
 However, it might not be the latest one.
 
 * On _Linux_ systems, you can install `vim-enhanced` to get the recent terminal-vim using your favorite package manager.
-The package to install the graphical-vim (gvim) is `vim-gnome`.
+The package to install the graphical-vim (gvim) is `vim-gnome` (Debian/Ubuntu) and `vim-X11` (Fedora).
 
 * On macOS, you can install `vim` using HomeBrew to get the recent terminal-vim.
 The package to install the graphical-vim (MacVim) is `macvim`.
