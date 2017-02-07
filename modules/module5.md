@@ -186,8 +186,7 @@ from Vimscript, C, Python, Ruby, etc.), and publish them for others on GitHub.
 Which plugins do I use?
 Well, the list keeps on changing based on my requirements and experience (over
 the last year, the number has varied between 0 and 25!).
-However, at the time of writing this (December 25th, 2016), I cannot live
-without [CtrlP](https://github.com/ctrlpvim/ctrlp.vim),
+However, I find it difficult to live without
 [vim-fugitive](https://github.com/tpope/vim-fugitive),
 [vim-commentary](https://github.com/tpope/vim-commentary), and
 [vim-sessionist](https://github.com/manasthakur/vim-sessionist).
