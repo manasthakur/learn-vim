@@ -140,7 +140,7 @@ set background=dark		" other option: light
 [Solarized](https://github.com/altercation/vim-colors-solarized) is an extremely
 popular low-contrast colorscheme that is available in dark as well as light
 variations, and is easy on your eyes.
-{Seoul256](https://github.com/junegunn/seoul256.vim),
+[Seoul256](https://github.com/junegunn/seoul256.vim),
 [Apprentice](https://github.com/romainl/Apprentice),
 [base16](https://github.com/chriskempson/base16), and
 [gruvbox](https://github.com/morhetz/gruvbox/) are some other well-known
