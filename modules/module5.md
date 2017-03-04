@@ -184,11 +184,9 @@ At an advanced stage, you can even write your own plugins (in languages ranging
 from Vimscript, C, Python, Ruby, etc.), and publish them for others on GitHub.
 
 Which plugins do I use?
-Well, the list keeps on changing based on my requirements and experience (over
-the last year, the number has varied between 0 and 25!).
-However, I find it difficult to live without
-[vim-fugitive](https://github.com/tpope/vim-fugitive),
-[vim-commentary](https://github.com/tpope/vim-commentary), and
+Well, the list keeps changing based on my requirements;
+however, I find it difficult to live without
+[vim-fugitive](https://github.com/tpope/vim-fugitive) and
 [vim-sessionist](https://github.com/manasthakur/vim-sessionist).
 
 #### Endnote:
