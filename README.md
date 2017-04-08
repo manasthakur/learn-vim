@@ -10,7 +10,7 @@ Welcome to the most unique tutorial on Vim -- the best text-editor on the planet
 ### Modules:
 We will learn Vim over the following modules:
 
-* [Module Zero: The Forgotten One] (modules/module0.md)
+* [Module Zero: The Forgotten One](modules/module0.md)
 * [(Not just an) Intro](modules/module1.md)
 * [BTW (Buffers, Tabs, Windows)](modules/module2.md)
 * [Being Normal](modules/module3.md)
