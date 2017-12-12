@@ -1,5 +1,7 @@
 ## Learn Vim - Module 3: Being Normal
 
+### [NOTE: This module is due for a major update (mainly in terms of the terms used) before the beginning of the year 2018.]
+
 [Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module2.md)  |  [Next module](module4.md)
 
 This is the module that introduces what makes Vim the most unique and amazing text-editor -- the _normal_ mode.
