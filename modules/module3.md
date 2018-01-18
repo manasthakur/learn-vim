@@ -1,6 +1,6 @@
 ## Learn Vim - Module 3: Being Normal
 
-### [NOTE: This module is due for a major update (mainly in terms of the terms used) before the beginning of the year 2018.]
+### [NOTE: This module is due for a major update (mainly with respect to the terms used) -- will push it in early 2018.]
 
 [Home](https://github.com/manasthakur/learn-vim/)  |  [Previous module](module2.md)  |  [Next module](module4.md)
 
